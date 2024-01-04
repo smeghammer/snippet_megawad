@@ -1,0 +1,28 @@
+#include "Actors/BeamZombie/DECORATE"
+
+#include "Actors/BruiserDemon/DECORATE.txt"
+#include "Actors/CyberBaron/DECORATE.txt"
+#include "Actors/CyberImp/DECORATE"
+#include "Actors/DoubleChaingunner/DECORATE"
+#include "Actors/FemaleScientist/DECORATE"
+#include "Actors/FemaleScientist2/DECORATE"
+#include "Actors/FemaleScientist3/DECORATE"
+#include "Actors/FemaleScientist4/DECORATE"
+#include "Actors/FlamerBaron/DECORATE"
+#include "Actors/FlamerZombie/DECORATE"
+
+#include "Actors/garden/DECORATE"
+#include "Actors/RailArachno/DECORATE"
+#include "Actors/squire/DECORATE"
+#include "Actors/steam/DECORATE"
+#include "Actors/ZombieScientist/DECORATE"
+#include "Actors/ZombieScientist2/DECORATE"
+#include "Actors/ZombieScientist3/DECORATE"
+#include "Actors/ZombieScientist4/DECORATE"
+#include "Actors/Flames/DECORATE.txt"
+#include "Actors/BloodSkull/DECORATE.txt"
+
+
+
+
+

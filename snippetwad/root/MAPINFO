@@ -1,0 +1,47 @@
+episode MAP01
+{
+	name="Gettin' started..."
+	key="g"
+}
+
+episode MAP10
+{
+	name="Creepin' around..."
+	key="r"
+}
+
+map MAP01 "map01"
+{
+	levelnum=1
+	next="MAP02"
+	sky1 = "OSKY44"
+	music = "D_IN_CIT"
+}
+map MAP02 "map02"
+{
+	levelnum=2
+	next="MAP03"
+	sky1 = "DNESKY03"
+	music = "D_IN_CIT"
+}
+map MAP03 "map03"
+{
+	levelnum=3
+	next="MAP04"
+	sky1 = "DNESKY03"
+	music = "D_IN_CIT"
+}
+map MAP04 "map04"
+{
+	levelnum=4
+	next="MAP05"
+	sky1 = "DNESKY03"
+	music = "D_IN_CIT"
+}
+map MAP05 "map05"
+{
+	levelnum=5
+	next="MAP06"
+	sky1 = "DNESKY03"
+	music = "D_IN_CIT"
+}
