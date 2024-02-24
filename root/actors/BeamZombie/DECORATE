@@ -1,4 +1,3 @@
-
 actor BeamGuy 12328
 {
   obituary "%o was cauterised by a zombie's plasma beam."

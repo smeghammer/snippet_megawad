@@ -1,75 +1,119 @@
-episode MAP01
-{
-	name="Gettin' started..."
-	key="g"
-}
+// episode MAP01
+// {
+// 	name="Part 1:the first bit"
+// 	key="g"
+// }
 
-episode MAP10
-{
-	name="Creepin' around..."
-	key="r"
-}
+// episode MAP11
+// {
+// 	name="Part 2: "
+// 	key="r"
+// }
 
-cluster 1
-{
-	flat = SLIME16
-	exittext = 
-		"well, I successfully managed to create a door and an exit...",
-		"on this first sortie, I discovered the tools to progress."
-}
+// cluster 1
+// {
+// 	flat = SLIME16
+// 	exittext =
+// 		"well, I successfully managed to create a door and an exit...",
+// 		"on this first sortie, I discovered the tools to progress."
+// }
 
-map MAP01 "map01"
+// cluster 2
+// {
+// 	flat = SLIME16
+// 	exittext =
+// 		"well, I successfully managed to create a door and an exit...",
+// 		"on this first sortie, I discovered the tools to progress."
+// }
+
+map MAP01 "Just a basic starting map..."
 {
 	levelnum=1
 	next="MAP02"
 	sky1 = "OSKY44"
 	music = "D_IN_CIT"
-	cluster = 1
+	// cluster = 1
 }
-
-
-cluster 2
-{
-	flat = SLIME16
-	exittext = 
-		"well, I successfully managed to create a door and an exit...",
-		"on this first sortie, I discovered the tools to progress."
-}
-map MAP02 "map02"
+map MAP02 "The Imp Cage"
 {
 	levelnum=2
 	next="MAP03"
 	sky1 = "DNESKY03"
 	music = "D_IN_CIT"
-	cluster = 2
+	// cluster = 2
 }
 
 
-map MAP03 "map03"
+map MAP03 "DOOM Patrol"
 {
 	levelnum=3
 	next="MAP04"
 	sky1 = "DNESKY03"
 	music = "D_IN_CIT"
 }
-map MAP04 "map04"
+map MAP04 "Your best friend is your Enemy!"
 {
 	levelnum=4
 	next="MAP05"
 	sky1 = "DNESKY03"
 	music = "D_IN_CIT"
 }
-map MAP05 "map05"
+map MAP05 "The Spider in the Mist"
 {
 	levelnum=5
 	next="MAP06"
 	sky1 = "DNESKY03"
 	music = "D_IN_CIT"
 }
-map MAP06 "map06"
+map MAP06 "The Baron Swamp"
 {
 	levelnum=6
 	next="MAP07"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+map MAP07 "The Little Red Room"
+{
+	levelnum=7
+	next="MAP08"
+	secretnext="MAP100"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+map MAP08 "Don't Wake the Spectres!"
+{
+	levelnum=8
+	next="MAP09"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+map MAP09 "Footsteps in the Night"
+{
+	levelnum=9
+	next="MAP10"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+map MAP10 "Footsteps in the Night"
+{
+	levelnum=10
+	next="MAP11"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+map MAP11 "test sequential secret"
+{
+	levelnum=11
+	next="MAP08"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+
+/* OK It does need to be sequential! */
+map MAP31 "map31"
+{
+	levelnum=31
+	next="MAP08"
 	sky1 = "SNSSKY06"
 	music = "D_IN_CIT"
 }
