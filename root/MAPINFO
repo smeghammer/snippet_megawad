@@ -87,6 +87,7 @@ map MAP08 "Don't Wake the Spectres!"
 	sky1 = "SNSSKY06"
 	music = "D_IN_CIT"
 }
+
 map MAP09 "Footsteps in the Night"
 {
 	levelnum=9
@@ -94,6 +95,7 @@ map MAP09 "Footsteps in the Night"
 	sky1 = "SNSSKY06"
 	music = "D_IN_CIT"
 }
+
 map MAP10 "Footsteps in the Night"
 {
 	levelnum=10
@@ -101,10 +103,26 @@ map MAP10 "Footsteps in the Night"
 	sky1 = "SNSSKY06"
 	music = "D_IN_CIT"
 }
-map MAP11 "test sequential secret"
+
+map MAP11 "BOIIIINGGG!"
 {
 	levelnum=11
-	next="MAP08"
+	next="MAP12"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+
+map MAP12 "next"
+{
+	levelnum=12
+	next="M13"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+map M11 "BOIIIINGGG2!"
+{
+	levelnum=13
+	next="MAP14"
 	sky1 = "SNSSKY06"
 	music = "D_IN_CIT"
 }

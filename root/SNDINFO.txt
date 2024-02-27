@@ -7,3 +7,4 @@ CIMPDTH1	Sounds/CyberImp/CIMPDTH1
 CIMPDTH2	Sounds/CyberImp/CIMPDTH2
 CIMPPAIN	Sounds/CyberImp/CIMPPAIN
 CIMPACT		Sounds/CyberImp/CIMPACT
+// BOINNG		sounds/sfx/boing_x.wav
