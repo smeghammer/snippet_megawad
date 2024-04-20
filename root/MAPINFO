@@ -34,6 +34,7 @@ map MAP01 "Just a basic starting map..."
 	music = "D_IN_CIT"
 	// cluster = 1
 }
+// based on snippets/grate
 map MAP02 "The Imp Cage"
 {
 	levelnum=2
@@ -87,7 +88,7 @@ map MAP08 "Don't Wake the Spectres!"
 	sky1 = "SNSSKY06"
 	music = "D_IN_CIT"
 }
-
+// based on snippets/footsteps
 map MAP09 "Footsteps in the Night"
 {
 	levelnum=9
@@ -96,6 +97,7 @@ map MAP09 "Footsteps in the Night"
 	music = "D_IN_CIT"
 }
 
+// TO SORT
 map MAP10 "Footsteps in the Night"
 {
 	levelnum=10
@@ -115,17 +117,157 @@ map MAP11 "BOIIIINGGG!"
 map MAP12 "next"
 {
 	levelnum=12
-	next="M13"
+	next="MAP13"
 	sky1 = "SNSSKY06"
 	music = "D_IN_CIT"
 }
-map M11 "BOIIIINGGG2!"
+// monster spawn
+map MAP13 "13"
 {
 	levelnum=13
 	next="MAP14"
 	sky1 = "SNSSKY06"
 	music = "D_IN_CIT"
 }
+// VERY old map - originally with an outside area? start is clipped ATM
+map MAP14 "14"
+{
+	levelnum=14
+	next="MAP51"
+	sky1 = "OSKY51"
+	music = "D_IN_CIT"
+}
+// a relatively recent map showing off (most of) my custom textures
+map MAP15 "15"
+{
+	levelnum=15
+	next="MAP16"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// square with small columns in square. Random(?) teleport dest? to check.
+map MAP16 "16"
+{
+	levelnum=16
+	next="MAP17"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// sector and line portals test. informed 'fuck you, escher!' map
+map MAP17 "17"
+{
+	levelnum=17
+	next="MAP18"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// a scripted map that lowers 4 platforms on line cross. No monsters or exit
+map MAP18 "18"
+{
+	levelnum=18
+	next="MAP19"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// same as above. REPLACE WITH ANOTHER
+map MAP19 "19"
+{
+	levelnum=19
+	next="MAP20"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// VERY old map, extends map 14 here. REPLACE ONE OR OTHER?
+map MAP20 "20"
+{
+	levelnum=20
+	next="MAP21"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// sound. windhowl used as a vent pipe
+map MAP21 "21"
+{
+	levelnum=21
+	next="MAP22"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+
+// canyon - basis for Hellbreach map 3. Replace with another?
+map MAP22 "22"
+{
+	levelnum=22
+	next="MAP23"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+
+// drbaron.wad. The BoH is a door...
+map MAP23 "23"
+{
+	levelnum=23
+	next="MAP24"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// a test of translucent glass. technique used in 'Corporate Nightmare' map
+map MAP24 "24"
+{
+	levelnum=24
+	next="MAP25"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// a test of deep green water and infinite horizon. Eventually used for 'Island Fortress'
+map MAP25 "25"
+{
+	levelnum=25
+	next="MAP26"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// a ladder test - a transparent swimmable 3D block just in front of the ladder
+map MAP26 "26"
+{
+	levelnum=26
+	next="MAP27"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// another early bridge 3D floor map, similar to others above, with basic script. REPLACE??
+map MAP27 "27"
+{
+	levelnum=27
+	next="MAP28"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// another windhowl - big long map
+map MAP28 "28"
+{
+	levelnum=28
+	next="MAP29"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// has non-functional turret/cyberimp. Otherwise is same as above. REPLACE
+map MAP29 "29"
+{
+	levelnum=29
+	next="MAP30"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+// four lowering plats, and some monsters. Same as one above (to identify)
+map MAP30 "30"
+{
+	levelnum=30
+	next="MAP31"
+	sky1 = "SNSSKY06"
+	music = "D_IN_CIT"
+}
+
 
 /* OK It does need to be sequential! */
 map MAP31 "map31"
