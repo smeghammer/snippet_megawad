@@ -45,12 +45,26 @@ Another one based on a basic square room. This time however, it has a map ACS sc
 
 ## Map 9 'Footsteps in the Night'
 
+I made a test map with footstep sounds on different floor surfaces (marble, wood, water, fleshy). I embellished it somewhat... 
 
-## Map 10 
+## Map 10 'Imp Gauntlet'
+
+Based on an early test of 'floating' 3D floors. Retextured a bit, and added a bunch of imps and a teleporter out of the pit.
 
 ## Map 11 'BOIIIINGGG!'
 
 A very silly map based on a test map for different activation trigger types (shoot, switch, cross and push). The triggers all use ThrustThingZ and for the rework, ThrustThing as well, so the jumping pinkies can get out of the cage, You'll see... Also uses a thing count to trigger on all dead. Based on snippets/activation_source/activ_src.wad.
 
+## Map 12: The Back Room
 
+This was originally a test of vertical switches in the same position, triggering upper and lower doors. I cheated a bit as it is actually different linedefs. The target doors are managed by control sectors. The actual 'back room' is just a hidden (sort of) area to embellish the map a bit.
+
+## Map 13: Skulls! Faaaazands of 'em!
+Another embellished early test of a 3D bridge. I added some decorations from R667 (sparks) and a bunch of PEs.
+
+## Map 14: Skeletons behind the walls
+A REALLY old map base. I added a red arachno area for shits and giggles
+
+## Map 15: The Baron of the Furnace
+Originally made to showcase some custom textures I made. I added some cyberimps and a Bruiser Demon from R667, as well as a bit of fun with fire. 
 

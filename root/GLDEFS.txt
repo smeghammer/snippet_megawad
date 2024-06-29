@@ -9,5 +9,6 @@
 #include GLDEFS/Fire.txt
 #include GLDEFS/Squire.txt
 #include GLDEFS/BloodSkull.txt
+#include GLDEFS/Sparks.txt
 
 

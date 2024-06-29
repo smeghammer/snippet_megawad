@@ -21,6 +21,7 @@
 #include "Actors/ZombieScientist4/DECORATE"
 #include "Actors/Flames/DECORATE.txt"
 #include "Actors/BloodSkull/DECORATE.txt"
+#include "Actors/Sparks/DECORATE.txt"
 
 
 

@@ -98,7 +98,7 @@ map MAP09 "Footsteps in the Night"
 }
 
 // TO SORT
-map MAP10 "Footsteps in the Night"
+map MAP10 "Imp Gauntlet!"
 {
 	levelnum=10
 	next="MAP11"
@@ -114,15 +114,15 @@ map MAP11 "BOIIIINGGG!"
 	music = "D_IN_CIT"
 }
 
-map MAP12 "next"
+map MAP12 "The Back Room"
 {
 	levelnum=12
 	next="MAP13"
 	sky1 = "SNSSKY06"
 	music = "D_IN_CIT"
 }
-// monster spawn
-map MAP13 "13"
+// monster spawn  check file thing on cracks
+map MAP13 "Skulls! Faaaazands of 'em!"
 {
 	levelnum=13
 	next="MAP14"
@@ -130,7 +130,7 @@ map MAP13 "13"
 	music = "D_IN_CIT"
 }
 // VERY old map - originally with an outside area? start is clipped ATM
-map MAP14 "14"
+map MAP14 "Skeletons behind the walls"
 {
 	levelnum=14
 	next="MAP51"
@@ -138,7 +138,8 @@ map MAP14 "14"
 	music = "D_IN_CIT"
 }
 // a relatively recent map showing off (most of) my custom textures
-map MAP15 "15"
+// check clipping on fences
+map MAP15 "The Baron of the Furnace"
 {
 	levelnum=15
 	next="MAP16"
