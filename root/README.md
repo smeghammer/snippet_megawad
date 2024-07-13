@@ -45,7 +45,7 @@ Another one based on a basic square room. This time however, it has a map ACS sc
 
 ## Map 9 'Footsteps in the Night'
 
-I made a test map with footstep sounds on different floor surfaces (marble, wood, water, fleshy). I embellished it somewhat... 
+I made a test map with footstep sounds on different floor surfaces (marble, wood, water, fleshy). I embellished it somewhat and turned it into a full-fledged map... 
 
 ## Map 10 'Imp Gauntlet'
 
